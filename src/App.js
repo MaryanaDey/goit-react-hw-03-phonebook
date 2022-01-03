@@ -9,8 +9,6 @@ export default class Mobile extends React.Component {
   state = {
     contacts: [],
     filter: '',
-    isLoading: false,
-    error: false,
   };
 
   componentDidUpdate(prevProps, prevState) {
